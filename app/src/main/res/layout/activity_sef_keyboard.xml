@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sef_keyboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.brerlappin.musicalsefo.SefKeyboard">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Do"
+                android:id="@+id/Do3"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_height="290dp"
+                style="@android:style/Widget.Button"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:text="Re"
+                android:id="@+id/Re3"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_height="290dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/Do3"
+                android:layout_toEndOf="@+id/Do3"
+                style="@android:style/Widget.Button" />
+
+            <Button
+                android:text="Mi"
+                android:id="@+id/Mi3"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_height="290dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/Re3"
+                android:layout_toEndOf="@+id/Re3"
+                style="@android:style/Widget.Button" />
+
+            <Button
+                android:text="Fa"
+                android:id="@+id/Fa3"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/Mi3"
+                android:layout_toEndOf="@+id/Mi3"
+                android:layout_alignParentBottom="true"
+                android:layout_height="290dp"
+                style="@android:style/Widget.Button" />
+
+            <Button
+                android:text="Sol"
+                android:id="@+id/Sol3"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_height="290dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/Fa3"
+                android:layout_toEndOf="@+id/Fa3"
+                style="@android:style/Widget.Button" />
+
+            <Button
+                android:text="La"
+                android:id="@+id/La3"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_height="290dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/Sol3"
+                android:layout_toEndOf="@+id/Sol3"
+                android:layout_alignParentBottom="true"
+                style="@android:style/Widget.Button" />
+
+            <Button
+                android:text="Si"
+                android:id="@+id/Si3"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/La3"
+                android:layout_toEndOf="@+id/La3"
+                android:layout_alignParentBottom="true"
+                android:layout_height="290dp"
+                style="@android:style/Widget.Button" />
+
+            <Button
+                android:text="Do"
+                android:id="@+id/Do4"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/Si3"
+                android:layout_toEndOf="@+id/Si3"
+                android:layout_alignParentBottom="true"
+                android:layout_height="290dp"
+                style="@android:style/Widget.Button" />
+
+            <Button
+                android:text="Re"
+                android:id="@+id/Re4"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_height="290dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/Do4"
+                android:layout_toEndOf="@+id/Do4"
+                style="@android:style/Widget.Button" />
+
+            <Button
+                android:text="Mi"
+                android:id="@+id/Mi4"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_height="290dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/Re4"
+                android:layout_toEndOf="@+id/Re4"
+                style="@android:style/Widget.Button" />
+
+            <Button
+                android:text="Fa"
+                android:id="@+id/Fa4"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/Mi4"
+                android:layout_toEndOf="@+id/Mi4"
+                android:layout_alignParentBottom="true"
+                android:layout_height="290dp"
+                style="@android:style/Widget.Button" />
+
+            <Button
+                android:text="Sol"
+                android:id="@+id/Sol4"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_height="290dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/Fa4"
+                android:layout_toEndOf="@+id/Fa4"
+                style="@android:style/Widget.Button" />
+
+            <Button
+                android:text="La"
+                android:id="@+id/La4"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_height="290dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/Sol4"
+                android:layout_toEndOf="@+id/Sol4"
+                style="@android:style/Widget.Button" />
+
+            <Button
+                android:text="Si"
+                android:id="@+id/Si4"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_height="290dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/La4"
+                android:layout_toEndOf="@+id/La4"
+                style="@android:style/Widget.Button" />
+
+            <Button
+                android:text="Do"
+                android:id="@+id/Do5"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/Si4"
+                android:layout_toEndOf="@+id/Si4"
+                android:layout_alignParentBottom="true"
+                android:layout_height="290dp"
+                style="@android:style/Widget.Button" />
+
+            <Button
+                android:text="Re"
+                android:id="@+id/Re5"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_height="290dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/Do5"
+                android:layout_toEndOf="@+id/Do5"
+                style="@android:style/Widget.Button" />
+
+            <Button
+                android:text="Sol#"
+                android:id="@+id/Sol4_Sos"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_marginRight="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/Si4"
+                android:layout_toStartOf="@+id/Si4"
+                android:backgroundTint="@android:color/black"
+                android:textColor="@android:color/background_light"
+                android:layout_height="160dp"
+                style="@android:style/Widget.Button"
+                android:padding="14dp"
+                android:background="?android:attr/textCursorDrawable" />
+
+            <Button
+                android:text="La#"
+                android:id="@+id/La4_Sos"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_marginRight="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/Do5"
+                android:layout_toStartOf="@+id/Do5"
+                android:backgroundTint="@android:color/black"
+                android:textColor="@android:color/background_light"
+                android:layout_height="160dp"
+                style="@android:style/Widget.Button"
+                android:padding="14dp"
+                android:background="?android:attr/textCursorDrawable" />
+
+            <Button
+                android:text="Re#"
+                android:id="@+id/Re4_Sos"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_marginRight="24dp"
+                android:layout_marginEnd="24dp"
+                android:backgroundTint="@android:color/black"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/Fa4"
+                android:layout_toStartOf="@+id/Fa4"
+                android:textColor="@android:color/background_light"
+                android:layout_height="160dp"
+                style="@android:style/Widget.Button"
+                android:padding="14dp"
+                android:background="?android:attr/textCursorDrawable" />
+
+            <Button
+                android:text="Fa#"
+                android:id="@+id/Fa4_Sos"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:backgroundTint="@android:color/black"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/Sol4_Sos"
+                android:layout_toStartOf="@+id/Sol4_Sos"
+                android:textColor="@android:color/background_light"
+                android:layout_height="160dp"
+                style="@android:style/Widget.Button"
+                android:padding="14dp"
+                android:background="?android:attr/textCursorDrawable" />
+
+            <Button
+                android:text="La#"
+                android:id="@+id/La3_Sos"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_marginRight="24dp"
+                android:layout_marginEnd="24dp"
+                android:textColor="@android:color/background_light"
+                android:layout_height="160dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/Do4"
+                android:layout_toStartOf="@+id/Do4"
+                android:padding="14dp"
+                style="@android:style/Widget.Button"
+                android:background="?android:attr/textCursorDrawable" />
+
+            <Button
+                android:text="Do#"
+                android:id="@+id/Do5_Sos"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:backgroundTint="@android:color/black"
+                android:textColor="@android:color/background_light"
+                android:layout_height="160dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/Si4"
+                android:layout_toEndOf="@+id/Si4"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                style="@android:style/Widget.Button"
+                android:padding="14dp"
+                android:background="?android:attr/textCursorDrawable" />
+
+            <Button
+                android:text="Do#"
+                android:id="@+id/Do4_Sos"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:backgroundTint="@android:color/black"
+                android:textColor="@android:color/background_light"
+                android:layout_height="160dp"
+                style="@android:style/Widget.Button"
+                android:padding="14dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/Re4_Sos"
+                android:layout_toStartOf="@+id/Re4_Sos"
+                android:background="?android:attr/textCursorDrawable" />
+
+            <Button
+                android:text="Do#"
+                android:id="@+id/Do3_Sos"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:backgroundTint="@android:color/black"
+                android:textColor="@android:color/background_light"
+                android:layout_height="160dp"
+                style="@android:style/Widget.Button"
+                android:padding="14dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/Re3_Sos"
+                android:layout_toStartOf="@+id/Re3_Sos"
+                android:background="?android:attr/textCursorDrawable" />
+
+            <Button
+                android:text="Re#"
+                android:id="@+id/Re3_Sos"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:layout_marginRight="24dp"
+                android:layout_marginEnd="24dp"
+                android:backgroundTint="@android:color/black"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/Fa3"
+                android:layout_toStartOf="@+id/Fa3"
+                android:textColor="@android:color/background_light"
+                android:layout_height="160dp"
+                style="@android:style/Widget.Button"
+                android:padding="14dp"
+                android:background="?android:attr/textCursorDrawable" />
+
+            <Button
+                android:text="Sol#"
+                android:id="@+id/Sol3_Sos"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:backgroundTint="@android:color/black"
+                android:textColor="@android:color/background_light"
+                android:layout_height="160dp"
+                style="@android:style/Widget.Button"
+                android:padding="14dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/La3_Sos"
+                android:layout_toStartOf="@+id/La3_Sos"
+                android:background="?android:attr/textCursorDrawable" />
+
+            <Button
+                android:text="Fa#"
+                android:id="@+id/Fa3_Sos"
+                android:layout_width="50dp"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:backgroundTint="@android:color/black"
+                android:textColor="@android:color/background_light"
+                android:layout_height="160dp"
+                style="@android:style/Widget.Button"
+                android:padding="14dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/Sol3_Sos"
+                android:layout_toStartOf="@+id/Sol3_Sos"
+                android:background="?android:attr/textCursorDrawable" />
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>
